@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT7 HTML SS3</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <table cellspacing="5">
+            <tr>
+            <td><label for="name">Họ và tên: </label></td>
+            <td><input type="text" name="name" id="name" style="width: 200px;"></td>
+            </tr>
+            <tr>
+            <td><label for="email">Email: </label></td>
+            <td><input type="text" name="email" id="email" style="width: 200px;"></td>
+            </tr>
+            <tr>
+            <td><label for="birthday">Ngày sinh: </label></td>
+            <td><input type="date" name="birthday" id="birthday"></td>
+            </tr>
+            <tr>
+            <td><label for="gender">Giới tính: </label></td>
+            <td>
+            <input type="radio" name="gender" value="male" id="gender"> Nam
+            <input type="radio" name="gender" value="female"> Nữ
+            </td>
+            </tr>
+            <tr>
+            <td><label for="phoneNumber">Số điện thoại: </label></td>
+            <td><input type="tel" name="phoneNumber" id="phoneNumber" style="width: 200px;"></td>
+            </tr>
+            <tr>
+            <td><label for="major">Chuyên ngành: </label></td>
+            <td>
+            <select name="major" id="major">
+            <option value="InformationTechnology">Công nghệ thông tin</option>
+            <option value="Business">Quản trị kinh doanh</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Service">Dịch vụ</option>
+            </select>
+            </td>
+            </tr>
+            <tr>
+            <td><label for="studyYear">Năm nhập học: </label></td>
+            <td><input type="number" name="studyYear" id="studyYear" min="2015" max="2024" step="1" style="width: 50px;"></td>
+            </tr>
+            <tr>
+            <td><label for="gpaPoint">Điểm GPA: </label></td>
+            <td><input type="number" name="gpaPoint" id="gpaPoint" min="0.1" max="4.0" step="0.1" style="width: 50px;"></td>
+            </tr>
+            <tr>
+            <td><label for="address">Địa chỉ: </label></td>
+            <td><textarea name="address" id="address" rows="3" cols="25" style="width: 200px;"></textarea></td>
+            </tr>
+            <tr>
+            <td><label for="class">Lớp học: </label></td>
+            <td>
+            <select name="class" id="class">
+            <option value="class1">Lớp 1</option>
+            <option value="class2">Lớp 2</option>
+            <option value="class3">Lớp 3</option>
+            </select>
+            </td>
+            </tr>
+            <tr>
+            <td><label for="registrationDate">Ngày đăng ký học: </label></td>
+            <td><input type="datetime-local" name="registrationDate" id="registrationDate"></td>
+            </tr>
+        </table>
+        <br><button type="submit">Gửi thông tin</button>
+    </form>
+</body>
+</html>
